@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    height: 12vh;
+    width: 100vw;
+}
+
+.nav-right{
+    display: flex;
+}
+
+.nav-heading{
+    padding-left: 1rem;
+}
+
+.dropdown-toggle{
+    padding-right: 1rem;
+}
