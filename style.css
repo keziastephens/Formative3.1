@@ -26,3 +26,32 @@
 .dropdown-toggle{
     padding-right: 1rem;
 }
+
+.topnews-header{
+    height: 5rem;
+    width: 90vw;
+    display: flex;
+    border-bottom: 1px solid grey;
+}
+
+.topnews-text{
+    font-size: 1.5rem
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img-top{
+    height: 20rem;
+    object-fit: cover;
+}
+
+.card{
+    min-height: 60vh;
+    width: 40vw !important;
+    margin: 2rem 1rem 2rem 1rem;
+}
