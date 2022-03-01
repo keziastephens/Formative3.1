@@ -88,16 +88,42 @@
     font-weight: 400;
 }
 
-.footer{
+.about{
+    height: 50vh;
+    width: 100vw;
+}
 
+.about-div{
+    height: 30%;
+}
+
+.footer{
+    height: 40vh;
+    width: 100vw;
+    background: rgb(20, 20, 20);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .footer-left{
 
+}
 
+.footer-left__text{
+    font-size: 1rem;
+    padding: 0.7rem 0rem 0.7rem 2rem;
 }
 
 .footer-right{
 
+    text-align: right;
+
     
+}
+
+.footer-right__text{
+    padding: 1rem 2rem 1rem 0rem;
+    font-size: 1.5rem;
 }
