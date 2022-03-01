@@ -17,6 +17,7 @@
 
 .nav-right{
     display: flex;
+    padding-right: 1rem;
 }
 
 .nav-heading{
@@ -52,6 +53,51 @@
 
 .card{
     min-height: 60vh;
-    width: 40vw !important;
+    width: 35vw !important;
     margin: 2rem 1rem 2rem 1rem;
+
+}
+
+.accordion-body{
+    overflow-y: scroll;
+}
+
+.accordion-button{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 400;
+}
+
+.card-publisher{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 400;
+}
+
+.card-title{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 400;
+    font-size: 1.7rem;
+}
+
+.card-text{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 400;
+}
+
+.card-content__accordion{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 400;
+}
+
+.footer{
+
+}
+
+.footer-left{
+
+
+}
+
+.footer-right{
+
+    
 }
