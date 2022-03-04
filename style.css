@@ -15,6 +15,11 @@
     width: 100vw;
 }
 
+.nav-link{
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+
 .nav-right{
     display: flex;
     padding-right: 1rem;
@@ -41,6 +46,10 @@ a:hover {
 }
 .dropdown-toggle{
     padding-right: 1rem;
+}
+
+.dropdown-item{
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 .topnews-header{
@@ -239,7 +248,7 @@ a:hover {
 }
 .about-p{
     padding-top: 1rem;
-    width: 15rem;
+    width: 20rem;
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 400;
 }
@@ -291,6 +300,8 @@ a:hover {
 .footer-left__text{
     font-size: 1rem;
     padding: 0.7rem 0rem 0.7rem 2rem;
+    font-family: 'Red Hat Display', sans-serif;
+
 }
 
 .footer-right{
@@ -303,4 +314,6 @@ a:hover {
 .footer-right__text{
     padding: 1rem 2rem 1rem 0rem;
     font-size: 1.5rem;
+    font-family: 'Red Hat Display', sans-serif;
+
 }
